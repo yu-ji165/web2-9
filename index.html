@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>はじめてってやつ</title>
+  <script type="text/javascript" src="https://code.jpuery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    $(function()
+    {
+      $("p").css("color","black");
+      $("#toggle).on("click",function()
+      {
+        $("p").css("color","red");
+      })
+    });
+  </script>
+</head>
+<body>
+  <p>テスト</p>
+  <button id="toggle">切り替え</button>
+</body>
+</head>
